@@ -60,7 +60,7 @@ while word_guessed == False:
     
     show_words(array_words,assigned_word) 
     try:
-        word = input(f"Hit some word of {word_length} length here:")
+        word = input(f"Type in a length of {word_length} here:")
         
         if len(word) != word_length:   #checks for length to make sure we have specified letter words 
             raise ValueError(f"it must be {word_length} length word!")  
